@@ -1,0 +1,13 @@
+A python utility to run commands on multiple remote server and get the output on local machine
+
+###This utility is tested on linux machines 
+###May or may not be comaptible with other Os.
+
+Use:
+1. first run server.py on any number of servers.
+	command-- python server.py
+2. now run client.py on your machine.
+	command- pythgon client.py ip1 ip2 ip3 
+	where ip1 ip2 ip3 .... are the ips of the servers on which server.py is running
+3. You have a shell to to use commands on remote servers
+

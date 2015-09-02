@@ -7,7 +7,7 @@ Use:
 1. first run server.py on any number of servers.
 	command-- python server.py
 2. now run client.py on your machine.
-	command- pythgon client.py ip1 ip2 ip3 
+	command- python client.py ip1 ip2 ip3 
 	where ip1 ip2 ip3 .... are the ips of the servers on which server.py is running
-3. You have a shell to to use commands on remote servers
+3. You have a shell to use commands on remote servers
 

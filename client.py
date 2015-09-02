@@ -19,7 +19,7 @@ def multiple_connections_server():   ###fucntion to create connection to multipl
 	for i in servers:
 		client=socket.socket(socket.AF_INET,socket.SOCK_STREAM) ##creating socket for connecting to server
 		try:
-			client.connect((i,port+j))
+			client.connect((i,port))
 			connectedServers.append([client,i])     ###adding the connected server to the list of connected server 
 		except:
 			print "Could not connect to the server %s"%i			 
